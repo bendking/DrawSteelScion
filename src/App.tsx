@@ -1,5 +1,5 @@
 import "./App.css";
-import { ManualLayout, Page, Column } from "./components";
+import { ManualLayout } from "./components";
 import Page1 from "./pages/Page1";
 import Page2 from "./pages/Page2";
 import Page3 from "./pages/Page3";

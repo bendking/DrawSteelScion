@@ -1,6 +1,4 @@
 import type { ReactNode } from "react";
-import { Text } from "./Text";
-import { TextBlock } from "./TextBlock";
 
 interface SubtitleProps {
   children: ReactNode;

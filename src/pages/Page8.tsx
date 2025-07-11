@@ -1,19 +1,4 @@
-import {
-  Page,
-  Column,
-  Text,
-  Title,
-  Heading1,
-  Heading2,
-  Heading3,
-  Heading4,
-  Heading5,
-  BulletList,
-  AdvancementTable,
-  TextBlock,
-  Ability,
-  Feature,
-} from "../components";
+import { Page, Column, Text, Title, Heading3, BulletList } from "../components";
 
 const Page8 = () => (
   <Page>
@@ -90,53 +75,53 @@ const Page8 = () => (
     </Column>
 
     <Column className="flex flex-col">
-        <Heading3>V0.1.5</Heading3>
-        <BulletList>
-          <Text>Renamed 'Aegis Sigil' to 'Writ of Sanctuary'</Text>
-          <Text>Renamed 'Scorchbrand Ward' to 'Writ of Flame'</Text>
-          <Text>Renamed 'Sear Rune' to 'Runebrand'</Text>
-          <Text>Changed text of 'Liminal Runes'</Text>
-          <Text>Changed Runewright description</Text>
-          <Text>Renamed 'Ensnaring Glyph' to 'Ensnaring Rune'</Text>
-          <Text>Changed Enweave effect and added spend effect</Text>
-          <Text>Changed Soulshape spend effect</Text>
-          <Text>Removed +A from Crescent Slash, added 2 damage</Text>
-          <Text>
-            Changed Veil Piercer effect wording and fixed T1 damage missing
-          </Text>
-        </BulletList>
+      <Heading3>V0.1.5</Heading3>
+      <BulletList>
+        <Text>Renamed 'Aegis Sigil' to 'Writ of Sanctuary'</Text>
+        <Text>Renamed 'Scorchbrand Ward' to 'Writ of Flame'</Text>
+        <Text>Renamed 'Sear Rune' to 'Runebrand'</Text>
+        <Text>Changed text of 'Liminal Runes'</Text>
+        <Text>Changed Runewright description</Text>
+        <Text>Renamed 'Ensnaring Glyph' to 'Ensnaring Rune'</Text>
+        <Text>Changed Enweave effect and added spend effect</Text>
+        <Text>Changed Soulshape spend effect</Text>
+        <Text>Removed +A from Crescent Slash, added 2 damage</Text>
+        <Text>
+          Changed Veil Piercer effect wording and fixed T1 damage missing
+        </Text>
+      </BulletList>
 
-        <Heading3>V0.1.4</Heading3>
-        <BulletList>
-          <Text>Changed balance discount to be once per combat round</Text>
-          <Text>Liminal Runes changes</Text>
-          <Text>Phase Assault changes</Text>
-          <Text>Godspeed changes (again)</Text>
-        </BulletList>
+      <Heading3>V0.1.4</Heading3>
+      <BulletList>
+        <Text>Changed balance discount to be once per combat round</Text>
+        <Text>Liminal Runes changes</Text>
+        <Text>Phase Assault changes</Text>
+        <Text>Godspeed changes (again)</Text>
+      </BulletList>
 
-        <Heading3>V0.1.3</Heading3>
-        <BulletList>
-          <Text>Buffed Godspeed</Text>
-          <Text>Changed description on Swordmaster kit</Text>
-          <Text>Buffed Cross Slash</Text>
-          <Text>Buffed 'Disruption Runes' and renamed to 'Liminal Runes'</Text>
-        </BulletList>
+      <Heading3>V0.1.3</Heading3>
+      <BulletList>
+        <Text>Buffed Godspeed</Text>
+        <Text>Changed description on Swordmaster kit</Text>
+        <Text>Buffed Cross Slash</Text>
+        <Text>Buffed 'Disruption Runes' and renamed to 'Liminal Runes'</Text>
+      </BulletList>
 
-        <Heading3>V0.1.2</Heading3>
-        <BulletList>
-          <Text>Replace Twinned Enweave with Mystic Shield</Text>
-          <Text>Twinned Enweave will be a level 4 ability instead</Text>
-        </BulletList>
+      <Heading3>V0.1.2</Heading3>
+      <BulletList>
+        <Text>Replace Twinned Enweave with Mystic Shield</Text>
+        <Text>Twinned Enweave will be a level 4 ability instead</Text>
+      </BulletList>
 
-        <Heading3>V0.1.1</Heading3>
-        <BulletList>
-          <Text>Misc. changes (typos, HR cost tweaks)</Text>
-        </BulletList>
+      <Heading3>V0.1.1</Heading3>
+      <BulletList>
+        <Text>Misc. changes (typos, HR cost tweaks)</Text>
+      </BulletList>
 
-        <Heading3>V0.1.0</Heading3>
-        <BulletList>
-          <Text>Initial release</Text>
-        </BulletList>
+      <Heading3>V0.1.0</Heading3>
+      <BulletList>
+        <Text>Initial release</Text>
+      </BulletList>
 
       <Text className="text-sm italic self-end justify-self-end">
         The Scion is an independent product published under the DRAW STEEL

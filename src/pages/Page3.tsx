@@ -2,18 +2,13 @@ import {
   Page,
   Column,
   Text,
-  Title,
-  Heading1,
   Heading2,
   Heading3,
   Heading4,
-  Heading5,
-  BulletList,
   AdvancementTable,
   TextBlock,
   Ability,
   Detail,
-  Feature,
 } from "../components";
 
 const Page3 = () => (
