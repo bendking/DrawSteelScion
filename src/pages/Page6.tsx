@@ -61,7 +61,7 @@ const Page6 = () => (
       <Text>You gain the following ability.</Text>
 
       <Ability
-        title="Mystic Shield"
+        title="Mystic Shield (3 Balance)"
         subtitle="An incandescent targe springs to life, a split second from impact."
         keywords="Magic"
         actionType="Free Triggered action"
