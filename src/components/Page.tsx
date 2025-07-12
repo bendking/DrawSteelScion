@@ -6,9 +6,10 @@ interface PageProps {
 }
 
 export function Page({ children, className = "" }: PageProps) {
+  // TODO: Consider if to put a specific height when not on mobile (md:h-[800px])
   return (
     <div
-      className={`w-full h-[800px] p-4 flex flex-row items-start gap-[15px] ${className}`}
+      className={`w-full p-4 flex flex-col md:flex-row items-start gap-[15px] ${className}`}
     >
       {children}
     </div>

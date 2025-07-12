@@ -5,7 +5,7 @@ import { Text } from "./Text";
 import { PowerRoll } from "./PowerRoll";
 import { TierResultsTable } from "./TierResultsTable";
 import { AbilitySection } from "./AbilitySection";
-import { validateTierResults } from "./utils/validation";
+import { validateTierResults } from "../utils/validation";
 
 interface TierResults {
   low: string;

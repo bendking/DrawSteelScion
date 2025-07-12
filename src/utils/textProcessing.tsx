@@ -1,5 +1,5 @@
 import React from "react";
-import { StyledLetter } from "../StyledLetter";
+import { StyledLetter } from "../components/StyledLetter";
 
 export const processTierResultText = (text: string) => {
   const words = text.split(" ");

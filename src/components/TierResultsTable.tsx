@@ -1,7 +1,7 @@
 import React from "react";
 import { Text } from "./Text";
 import { RollRange } from "./RollRange";
-import { processTierResultText } from "./utils/textProcessing";
+import { processTierResultText } from "../utils/textProcessing";
 
 interface TierResults {
   low: string;

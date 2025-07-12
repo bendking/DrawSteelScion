@@ -4,10 +4,13 @@ import {
   Text,
   Heading2,
   Heading3,
+  Heading4,
+  AdvancementTable,
   Ability,
+  Feature,
 } from "../components";
 
-const Page4 = () => (
+const ThreeHR = () => (
   <Page>
     <Column>
       <Heading2>Heroic Abilities</Heading2>
@@ -37,7 +40,6 @@ const Page4 = () => (
         }}
         effect="If the target has any condition, this ability deals double damage."
       />
-
       <Ability
         title="Full Moon Arc"
         subtitle="Your blade traces a perfect circle in red."
@@ -52,7 +54,9 @@ const Page4 = () => (
           high: "12 damage",
         }}
       />
+    </Column>
 
+    <Column>
       <Ability
         title="Veil Piercer"
         subtitle="You lance through a veil of mist, fading from sight."
@@ -68,9 +72,7 @@ const Page4 = () => (
         }}
         effect="Create a 1 burst area of mist which provides concealment that lasts until the end of your next turn. Creatures inside the mist cannot be observed."
       />
-    </Column>
 
-    <Column>
       <Ability
         title="Sanguine Thread"
         subtitle="Your blade draws a line through flesh, and a thread of life follows - woven back into your form."
@@ -86,45 +88,8 @@ const Page4 = () => (
         }}
         effect="You gain temporary Stamina equal to half the damage dealt by this ability."
       />
-
-      <Heading3>5-Balance Ability</Heading3>
-      <Text>
-        Choose one heroic ability from the following options, each of which
-        costs 5 balance to use.
-      </Text>
-
-      <Ability
-        title="Lightning Strike"
-        subtitle="You become lightning, flashing from one place to another, leaving ruin in your wake."
-        keywords="Melee, Weapon, Magic, Area"
-        actionType="Main action"
-        range="10 x 1 line within 1"
-        targets="Each enemy in the area"
-        addedStats={["Agility"]}
-        tierResults={{
-          low: "8 damage",
-          middle: "10 damage",
-          high: "14 damage",
-        }}
-        effect="You shift to a square on the opposite side of the area before making the power roll."
-      />
-
-      <Ability
-        title="Glacial Bloom"
-        subtitle="Like a flower in bloom, ice explodes onto your foes."
-        keywords="Area, Magic, Ranged"
-        actionType="Main action"
-        range="3 cube in range 10"
-        targets="Each enemy in the area"
-        addedStats={["Agility"]}
-        tierResults={{
-          low: "6 cold damage, A < weak, slowed (save ends)",
-          middle: "8 cold damage, A < average, slowed (save ends)",
-          high: "10 cold damage, A < strong, restrained (save ends)",
-        }}
-      />
     </Column>
   </Page>
 );
 
-export default Page4;
+export default ThreeHR;

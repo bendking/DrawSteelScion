@@ -1,26 +1,29 @@
 import "./App.css";
 import { ManualLayout } from "./components";
-import Page1 from "./pages/Page1";
-import Page2 from "./pages/Page2";
-import Page3 from "./pages/Page3";
-import Page4 from "./pages/Page4";
-import Page5 from "./pages/Page5";
-import Page6 from "./pages/Page6";
-import Page7 from "./pages/Page7";
-import Page8 from "./pages/Page8";
+import Class from "./pages/1-Class";
+import Maneuvers from "./pages/2-Maneuvers";
+import Triggers from "./pages/3-Triggers";
+import Signatures from "./pages/4-Signatures";
+import ThreeHR from "./pages/5-ThreeHR";
+import FiveHR from "./pages/6-FiveHR";
+import Level2 from "./pages/7-Level2";
+import Level3 from "./pages/8-Level3";
+
+// import ThreeHR from "./pages/ThreeHR";
 
 function App() {
   return (
     <>
       <ManualLayout>
-        <Page1 />
-        <Page2 />
-        <Page3 />
-        <Page4 />
-        <Page5 />
-        <Page6 />
-        <Page7 />
-        <Page8 />
+        <Class />
+        {/* <BalanceEnweave /> */}
+        <Maneuvers />
+        <Triggers />
+        <Signatures />
+        <ThreeHR />
+        <FiveHR />
+        <Level2 />
+        <Level3 />
       </ManualLayout>
     </>
   );
