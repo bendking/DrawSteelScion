@@ -6,10 +6,8 @@ import {
   Heading3,
   Heading4,
   Ability,
-  Detail,
   AdvancementTable,
   Feature,
-  TextBlock,
 } from "../components";
 
 const Level2 = () => (

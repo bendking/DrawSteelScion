@@ -5,11 +5,9 @@ import {
   Heading2,
   Heading3,
   BulletList,
-  AdvancementTable,
   TextBlock,
   Ability,
   Detail,
-  Feature,
 } from "../components";
 
 const BalanceEnweave = () => (

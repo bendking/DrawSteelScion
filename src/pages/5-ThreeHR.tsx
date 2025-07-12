@@ -1,14 +1,4 @@
-import {
-  Page,
-  Column,
-  Text,
-  Heading2,
-  Heading3,
-  Heading4,
-  AdvancementTable,
-  Ability,
-  Feature,
-} from "../components";
+import { Page, Column, Text, Heading2, Heading3, Ability } from "../components";
 
 const ThreeHR = () => (
   <Page>

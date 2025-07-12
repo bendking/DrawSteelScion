@@ -1,15 +1,4 @@
-import {
-  Page,
-  Column,
-  Text,
-  Heading2,
-  Heading3,
-  TextBlock,
-  Ability,
-  Feature,
-  AdvancementTable,
-  Heading4,
-} from "../components";
+import { Page, Column, Text, Heading3, Ability } from "../components";
 
 const FiveHR = () => (
   <Page>

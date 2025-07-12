@@ -3,14 +3,11 @@ import {
   Column,
   Text,
   Heading2,
-  Heading3,
   Heading4,
   AdvancementTable,
   TextBlock,
   Ability,
   Detail,
-  Feature,
-  BulletList,
 } from "../components";
 
 const Triggers = () => (

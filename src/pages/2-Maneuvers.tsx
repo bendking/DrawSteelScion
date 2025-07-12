@@ -4,7 +4,6 @@ import {
   Text,
   Heading2,
   Heading3,
-  Heading4,
   AdvancementTable,
   TextBlock,
   Ability,
