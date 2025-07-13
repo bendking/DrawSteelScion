@@ -1,6 +1,8 @@
 import "./App.css";
 import { ManualLayout } from "./components";
 import Class from "./pages/1-Class";
+import ClassSubclass from "./pages/1-Class-Subclass";
+import BalanceEnweave from "./pages/2-Balance-Enweave";
 import Maneuvers from "./pages/2-Maneuvers";
 import Triggers from "./pages/3-Triggers";
 import Signatures from "./pages/4-Signatures";
@@ -15,8 +17,9 @@ function App() {
   return (
     <>
       <ManualLayout>
-        <Class />
-        {/* <BalanceEnweave /> */}
+        {/* <Class /> */}
+        <ClassSubclass />
+        <BalanceEnweave />
         <Maneuvers />
         <Triggers />
         <Signatures />

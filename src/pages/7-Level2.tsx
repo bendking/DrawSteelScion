@@ -26,14 +26,6 @@ const Level2 = () => (
         ]}
       />
 
-      {/* Implement with <Feature> component: */}
-      {/* Afterimage
-Whenever you teleport by any means, you leave a distracting afterimage in your previous location until the start of your next turn. Power rolls targeting enemies adjacent to an afterimage gain edge. The afterimage does not occupy space.
-Liminal Runes
-An enemy with a branded rune receives a bane on their power rolls as long as the rune remains undetonated.
-An ally or yourself with a branded rune gains an edge on their power rolls as long as the rune remains undetonated.
-Soul Instinct
-Once per turn, you can make an opportunity attack whenever a creature moves from a square adjacent to you to another square adjacent to you. In addition, your stability is increased by 1. */}
       <Feature title="Afterimage">
         <Text>
           Whenever you teleport by any means, you leave a distracting afterimage
