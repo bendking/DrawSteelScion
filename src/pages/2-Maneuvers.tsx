@@ -34,6 +34,13 @@ const Maneuvers = () => (
         ]}
       />
 
+      <Feature title="Phasewalk">
+        <Text>
+          Whenever you take the Advance move action, you can instead teleport
+          your Reason + 1 in squares.
+        </Text>
+      </Feature>
+
       <Ability
         title="Blink"
         subtitle="…And you miss it."

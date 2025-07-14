@@ -8,7 +8,8 @@ const ChangeLog = () => (
       <Heading3>V0.2.5</Heading3>
       <BulletList>
         <Text>Afterimage can no longer be targeted or destroyed</Text>
-        <Text>Blink spend effectwording changed</Text>
+        <Text>Blink spend effect wording changed</Text>
+        <Text>Enweave now only applies to melee strikes</Text>
       </BulletList>
 
       <Heading3>V0.2.4</Heading3>
