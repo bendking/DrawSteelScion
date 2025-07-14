@@ -16,7 +16,7 @@ export { TextBlock } from "./TextBlock";
 export { Subtitle } from "./Subtitle";
 export { Detail } from "./Detail";
 export { Feature } from "./Feature";
-export { StyledLetter } from "./StyledLetter";
+export { Highlight } from "./Highlight";
 export { RollRange } from "./RollRange";
 export { PowerRoll } from "./PowerRoll";
 export { TierResultsTable } from "./TierResultsTable";

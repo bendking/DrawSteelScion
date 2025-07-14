@@ -49,7 +49,7 @@ const Maneuvers = () => (
         spend={
           <Detail
             detailName="Spend 5 Balance"
-            detailValue="If used immediately after performing a strike with melee range, you may repeat that strike at your target destination, as long as it costs 5 balance or fewer."
+            detailValue="If used immediately after performing a strike with melee range, you may repeat that strike at your target destination without needing to spend the base cost as long as it costs 5 balance or fewer."
           />
         }
       />

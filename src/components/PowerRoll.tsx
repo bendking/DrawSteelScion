@@ -1,6 +1,6 @@
 import React from "react";
 import { Text } from "./Text";
-import { StyledLetter } from "./StyledLetter";
+import { Highlight } from "./Highlight";
 
 interface PowerRollProps {
   addedStats: ("Might" | "Agility" | "Reason" | "Intuition" | "Presence")[];
@@ -15,7 +15,7 @@ export const PowerRoll: React.FC<PowerRollProps> = ({ addedStats }) => {
           {addedStats.map((stat, index) => (
             <React.Fragment key={stat}>
               {index > 0 && ", "}
-              <StyledLetter highlightFirstLetter>{stat}</StyledLetter>
+              <Highlight highlightFirstLetter>{stat}</Highlight>
             </React.Fragment>
           ))}
         </strong>

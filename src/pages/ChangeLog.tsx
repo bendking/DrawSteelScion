@@ -5,6 +5,12 @@ const ChangeLog = () => (
     <Column>
       <Title>Changelog</Title>
 
+      <Heading3>V0.2.5</Heading3>
+      <BulletList>
+        <Text>Afterimage can no longer be targeted or destroyed</Text>
+        <Text>Blink spend effectwording changed</Text>
+      </BulletList>
+
       <Heading3>V0.2.4</Heading3>
       <BulletList>
         <Text>Switch 2nd-level perk option from crafting to supernatural</Text>

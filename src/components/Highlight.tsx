@@ -1,30 +1,31 @@
 import React from "react";
 
-interface StyledLetterProps {
+interface HighlightProps {
   children: string;
   highlightFirstLetter?: boolean;
 }
 
-export const StyledLetter: React.FC<StyledLetterProps> = ({
+export const Highlight: React.FC<HighlightProps> = ({
   children,
   highlightFirstLetter = false,
 }) => {
-  const styledLetter =
+  const highlight =
     "bg-black text-white rounded-[1px] px-[3px] text-[10px] font-bold";
 
   if (highlightFirstLetter && children.length > 0) {
     const firstLetter = children[0];
     const restOfWord = children.slice(1);
+
     return (
       <span>
-        <span className={styledLetter}>{firstLetter}</span>
+        <span className={highlight}>{firstLetter}</span>
         {restOfWord}
       </span>
     );
   }
 
-  if (children.length === 1) {
-    return <span className={styledLetter}>{children}</span>;
+  if (!highlightFirstLetter && children.length > 0) {
+    return <span className={highlight}>{children}</span>;
   }
 
   return <span>{children}</span>;
