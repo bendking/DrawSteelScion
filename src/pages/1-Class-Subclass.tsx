@@ -9,7 +9,6 @@ import {
   BulletList,
   AdvancementTable,
   TextBlock,
-  Ability,
 } from "../components";
 import { Detail } from "../components/Detail";
 

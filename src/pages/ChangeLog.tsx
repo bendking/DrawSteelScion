@@ -1,6 +1,6 @@
 import { Page, Column, Text, Title, Heading3, BulletList } from "../components";
 
-const Page8 = () => (
+const ChangeLog = () => (
   <Page>
     <Column>
       <Title>Changelog</Title>
@@ -132,4 +132,4 @@ const Page8 = () => (
   </Page>
 );
 
-export default Page8;
+export default ChangeLog;

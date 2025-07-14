@@ -9,7 +9,7 @@ import {
   Detail,
 } from "../components";
 
-const Page7 = () => (
+const Kits = () => (
   <Page>
     <Column>
       <Heading2>Additional Kits</Heading2>
@@ -51,4 +51,4 @@ const Page7 = () => (
   </Page>
 );
 
-export default Page7;
+export default Kits;
