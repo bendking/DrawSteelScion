@@ -17,6 +17,7 @@ const ChangeLog = () => (
           effect
         </Text>
         <Text>Changed Fourfold Stroke keywords</Text>
+        <Text>Changed Soulshape effect wording</Text>
       </BulletList>
 
       <Heading3>V0.2.4</Heading3>

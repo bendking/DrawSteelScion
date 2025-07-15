@@ -121,19 +121,19 @@ const Maneuvers = () => (
             </Text>
             <BulletList>
               <Detail
-                detailName="Catalyst"
+                detailName="Resonant"
                 detailValue="The potency of your abilities is increased by 1."
               />
               <Detail
                 detailName="Extended"
-                detailValue="Melee abilities using this weapon have their distance increased by 2, and their area increased by 1. If the area is a line, you increase the size of one dimension, not both."
+                detailValue="Weapon abilities have their distance increased by 2, and their area increased by 1. If the area is a line, you increase the size of one dimension, not both."
               />
               <Detail
-                detailName="Sharp"
-                detailValue="Melee abilities with rolled damage have their damage increased by your Reason score. Strikes that target only a single creature have their damage increase by double your Reason score instead."
+                detailName="Keen"
+                detailValue="Weapon abilities with rolled damage have their damage increased by your Reason score. Strikes have their damage increase by double your Reason score instead."
               />
               <Detail
-                detailName="Defensive"
+                detailName="Fortified"
                 detailValue="Your stability is increased by +1 until the end of your next turn, and you gain temporary stamina equal to double your Reason."
               />
             </BulletList>
