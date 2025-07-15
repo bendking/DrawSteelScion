@@ -56,13 +56,13 @@ const Maneuvers = () => (
         spend={
           <Detail
             detailName="Spend 5 Balance"
-            detailValue="If used immediately after performing a strike with melee range, you may repeat that strike at your target destination without needing to spend the base cost as long as it costs 5 balance or fewer."
+            detailValue="If used immediately after performing a melee strike, you may repeat that strike at your target destination without needing to spend the base cost as long as it costs 5 balance or fewer."
           />
         }
       />
 
       <Ability
-        title="Runebrand"
+        title="Runebrand (1 Balance)"
         subtitle="You brand a volatile rune on your target, priming it for detonation."
         keywords="Magic"
         actionType="Maneuver"

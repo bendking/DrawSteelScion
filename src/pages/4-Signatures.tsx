@@ -18,7 +18,7 @@ const Signatures = () => (
       <Ability
         title="Fourfold Stroke"
         subtitle="A single slash unfolds into multiple, mirrored in perfect harmony."
-        keywords="Melee, Strike, Weapon, Magic"
+        keywords="Area, Magic, Melee, Weapon"
         actionType="Main action"
         range="2 cube within 1"
         targets="Each enemy in the area"
@@ -67,11 +67,11 @@ const Signatures = () => (
               does not have to target the target of this effect"
       />
       <Ability
-        title="Crescent Slash"
-        subtitle="A crescent slash cuts through your foes with the grace of moonlight."
-        keywords="Area, Melee, Strike, Weapon"
+        title="Crescent Arc"
+        subtitle="A precise arc cuts through your foes with the grace of moonlight."
+        keywords="Area, Magic, Melee, Weapon"
         actionType="Main action"
-        range="line 3 x 1 within melee 1"
+        range="3 wall within 1"
         targets="Each enemy in the area"
         addedStats={["Agility"]}
         tierResults={{
@@ -79,7 +79,7 @@ const Signatures = () => (
           middle: "8 damage",
           high: "11 damage",
         }}
-        effect="The line must arc horizontally in front of you, with the center square directly ahead. If the line length is increased rather than its width, it is increased twice, once on each side."
+        effect="The wall area is only used for targeting, and does not create an actual wall. Each increase to the wall's length is doubled."
       />
     </Column>
   </Page>

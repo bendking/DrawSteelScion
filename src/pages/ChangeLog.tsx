@@ -10,6 +10,13 @@ const ChangeLog = () => (
         <Text>Afterimage can no longer be targeted or destroyed</Text>
         <Text>Blink spend effect wording changed</Text>
         <Text>Enweave now only applies to melee strikes</Text>
+        <Text>Runebrand now costs 1 balance</Text>
+        <Text>Change wording on Blink spend effect</Text>
+        <Text>
+          Crescent Slash renamed to Crescent Arc, changed its keywords and
+          effect
+        </Text>
+        <Text>Changed Fourfold Stroke keywords</Text>
       </BulletList>
 
       <Heading3>V0.2.4</Heading3>
