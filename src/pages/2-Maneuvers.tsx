@@ -90,7 +90,7 @@ const Maneuvers = () => (
     <Column>
       <Feature title="Soulbound">
         <Text>
-          Soulbound Your Soulblade is more than a weapon - it's an extension of
+          Your Soulblade is more than a weapon - it's an extension of
           your soul. Its appearance reflects the innermost truth of who you are.
           You are never truly separated from it; if it's not in your hands, you
           can summon it instantly as a free maneuver.
