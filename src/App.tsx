@@ -1,5 +1,5 @@
 import "./App.css";
-import { ManualLayout } from "./components";
+import { ManualLayout, Sidebar } from "./components";
 import ClassSubclass from "./pages/1-Class-Subclass";
 import BalanceEnweave from "./pages/2-Balance-Enweave";
 import Maneuvers from "./pages/2-Maneuvers";
@@ -14,9 +14,9 @@ import ChangeLog from "./pages/ChangeLog";
 
 function App() {
   return (
-    <>
+    <div className="flex flex-row">
+      <Sidebar />
       <ManualLayout>
-        {/* <Class /> */}
         <ClassSubclass />
         <BalanceEnweave />
         <Maneuvers />
@@ -29,7 +29,7 @@ function App() {
         <Kits />
         <ChangeLog />
       </ManualLayout>
-    </>
+    </div>
   );
 }
 

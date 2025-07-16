@@ -1,7 +1,7 @@
 import { Page, Column, Text, Heading2, Heading3, Ability } from "../components";
 
 const ThreeHR = () => (
-  <Page>
+  <Page id="three-hr">
     <Column>
       <Heading2>Heroic Abilities</Heading2>
       <Text>

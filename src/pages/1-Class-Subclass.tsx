@@ -13,7 +13,7 @@ import {
 import { Detail } from "../components/Detail";
 
 const Class = () => (
-  <Page>
+  <Page id="class-subclass">
     <Column>
       <Title>The Scion</Title>
 

@@ -9,7 +9,7 @@ import {
 } from "../components";
 
 const Level3 = () => (
-  <Page>
+  <Page id="level-3">
     <Column>
       <Heading2>3rd-Level Features</Heading2>
       <Text>As a 3rd-level scion, you gain the following features.</Text>

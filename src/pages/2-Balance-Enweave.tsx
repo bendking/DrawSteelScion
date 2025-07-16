@@ -11,7 +11,7 @@ import {
 } from "../components";
 
 const BalanceEnweave = () => (
-  <Page>
+  <Page id="balance-enweave">
     <Column>
       {/* --- BALANCE --- */}
       <Heading2>Balance</Heading2>

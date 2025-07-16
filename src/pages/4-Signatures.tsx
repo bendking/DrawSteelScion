@@ -1,7 +1,7 @@
 import { Page, Column, Text, Heading2, Heading3, Ability } from "../components";
 
 const Signatures = () => (
-  <Page>
+  <Page id="signatures">
     <Column>
       <Heading2>Scion Abilities</Heading2>
       <Text>

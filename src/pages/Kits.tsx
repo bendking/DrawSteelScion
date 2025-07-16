@@ -10,7 +10,7 @@ import {
 } from "../components";
 
 const Kits = () => (
-  <Page>
+  <Page id="kits">
     <Column>
       <Heading2>Additional Kits</Heading2>
 

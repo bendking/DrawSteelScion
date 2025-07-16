@@ -21,3 +21,4 @@ export { RollRange } from "./RollRange";
 export { PowerRoll } from "./PowerRoll";
 export { TierResultsTable } from "./TierResultsTable";
 export { AbilitySection } from "./AbilitySection";
+export { Sidebar } from "./Sidebar";

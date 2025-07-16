@@ -1,7 +1,7 @@
 import { Page, Column, Text, Heading3, Ability } from "../components";
 
 const FiveHR = () => (
-  <Page>
+  <Page id="five-hr">
     <Column>
       <Heading3>5-Balance Ability</Heading3>
       <Text>

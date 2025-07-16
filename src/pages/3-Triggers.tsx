@@ -11,7 +11,7 @@ import {
 } from "../components";
 
 const Triggers = () => (
-  <Page>
+  <Page id="triggers">
     <Column>
       <Heading2>Art Triggered Action</Heading2>
       <Text>

@@ -11,7 +11,7 @@ import {
 } from "../components";
 
 const Level2 = () => (
-  <Page>
+  <Page id="level-2">
     <Column>
       <Heading2>2nd-Level Features</Heading2>
       <Text>As a 2nd-level Scion, you gain the following features.</Text>

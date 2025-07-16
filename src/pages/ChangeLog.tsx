@@ -1,7 +1,7 @@
 import { Page, Column, Text, Title, Heading3, BulletList } from "../components";
 
 const ChangeLog = () => (
-  <Page>
+  <Page id="changelog">
     <Column>
       <Title>Changelog</Title>
 
