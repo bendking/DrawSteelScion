@@ -9,7 +9,6 @@ export { BulletList } from "./BulletList";
 export { AdvancementTable } from "./AdvancementTable";
 export { Ability } from "./Ability";
 export { ManualLayout } from "./ManualLayout";
-export { AutoLayout as Layout } from "./Layout";
 export { Page } from "./Page";
 export { Column } from "./Column";
 export { TextBlock } from "./TextBlock";
