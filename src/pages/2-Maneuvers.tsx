@@ -56,7 +56,7 @@ const Maneuvers = () => (
         spend={
           <Detail
             detailName="Spend 5 Balance"
-            detailValue="If used immediately after performing a melee strike, you may repeat that strike at your target destination without needing to spend the base cost as long as it costs 5 balance or fewer."
+            detailValue="If used immediately after performing an ability that targets only one enemy, you may repeat that ability at your target destination without needing to spend the base cost as long as it costs 5 balance or fewer."
           />
         }
       />

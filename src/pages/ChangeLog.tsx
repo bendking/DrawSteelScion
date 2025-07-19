@@ -7,12 +7,12 @@ const ChangeLog = () => (
 
       <Heading3>V0.2.7</Heading3>
       <BulletList>
-        <Text>
-          Changed Enweave effect to apply to melee weapon abilities
-        </Text>
+        <Text>Changed Enweave effect to apply to melee weapon abilities</Text>
         <Text>Reduced Phase Assault damage</Text>
         <Text>Changed Veil Piercer effect</Text>
         <Text>Renamed and reworked Fourfold Stroke to Ninefold Stroke</Text>
+        <Text>Changed Horizon Step target to Special</Text>
+        <Text>Changed Blink spend effect wording</Text>
       </BulletList>
 
       <Heading3>V0.2.6</Heading3>
