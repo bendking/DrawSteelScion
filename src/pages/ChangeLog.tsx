@@ -5,6 +5,16 @@ const ChangeLog = () => (
     <Column>
       <Title>Changelog</Title>
 
+      <Heading3>V0.2.7</Heading3>
+      <BulletList>
+        <Text>
+          Changed Enweave effect to apply to melee weapon abilities
+        </Text>
+        <Text>Reduced Phase Assault damage</Text>
+        <Text>Changed Veil Piercer effect</Text>
+        <Text>Renamed and reworked Fourfold Stroke to Ninefold Stroke</Text>
+      </BulletList>
+
       <Heading3>V0.2.6</Heading3>
       <BulletList>
         <Text>Added sidebar navigation</Text>

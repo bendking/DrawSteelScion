@@ -73,9 +73,9 @@ const Level2 = () => (
         targets="1 creature or object"
         addedStats={["Agility"]}
         tierResults={{
-          low: "6 damage",
-          middle: "8 damage",
-          high: "10 damage",
+          low: "3 damage",
+          middle: "6 damage",
+          high: "9 damage",
         }}
         effect="Choose a target within range 5, teleport to an unoccupied space adjacent to it, then apply the power roll result to it. Repeat this effect up to 3 more times. The same target cannot be chosen more than once."
       />

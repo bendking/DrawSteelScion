@@ -120,14 +120,14 @@ const BalanceEnweave = () => (
               />
             </BulletList>
             <Text>
-              The chosen effect applies to your next melee strike. It may change
-              its damage type. Any additional effects are applied after the
-              strike is resolved, and if the strike has multiple targets - apply
-              the effect to one target of your choosing. If you use this ability
-              more than once before a strike, choose one of the damage types to
-              change your next strike's type to, but apply all of the additional
-              effects. You cannot use this ability more than twice before making
-              a strike.
+              The chosen effect applies to your next melee weapon ability. It
+              may change its damage type. Any additional effects are applied
+              after the ability is resolved, and if the ability has multiple
+              targets - apply the effect to one target of your choosing. If you
+              use this ability more than once before an ability, choose one of
+              the damage types to change your next ability's type to, but apply
+              all of the additional effects. You cannot use this ability more
+              than twice before benefiting from its effect.
             </Text>
           </TextBlock>
         }

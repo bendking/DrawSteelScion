@@ -16,17 +16,17 @@ const Signatures = () => (
       </Text>
 
       <Ability
-        title="Fourfold Stroke"
+        title="Ninefold Stroke"
         subtitle="A single slash unfolds into multiple, mirrored in perfect harmony."
         keywords="Area, Magic, Melee, Weapon"
         actionType="Main action"
-        range="2 cube within 1"
+        range="3 cube within 1"
         targets="Each enemy in the area"
         addedStats={["Agility"]}
         tierResults={{
-          low: "4 damage",
-          middle: "6 damage",
-          high: "8 damage",
+          low: "2 damage",
+          middle: "4 damage",
+          high: "6 damage",
         }}
       />
 
