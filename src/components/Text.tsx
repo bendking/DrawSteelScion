@@ -7,8 +7,10 @@ interface TextProps {
 
 export function Text({ children, className = "" }: TextProps) {
   return (
-    <span className={`font-alegreya text-[10px] leading-normal ${className}`}>
+    <div
+      className={`font-alegreya text-[10px] leading-normal break-words overflow-wrap-anywhere ${className}`}
+    >
       {children}
-    </span>
+    </div>
   );
 }
