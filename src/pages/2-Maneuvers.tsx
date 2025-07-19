@@ -121,20 +121,24 @@ const Maneuvers = () => (
             </Text>
             <BulletList>
               <Detail
+                detailName="Defensive"
+                detailValue="You gain temporary stamina equal to double your Reason, and your stability is increased by your Reason until the end of your next turn."
+              />
+              <Detail
+                detailName="Expansive"
+                detailValue="Melee weapon abilities have their area increased by 1. If the area is a line, you increase the size of one dimension, not both."
+              />
+              <Detail
+                detailName="Powerful"
+                detailValue="Melee weapon abilities with rolled damage have their damage increased by your Reason score. Melee weapon strikes have their damage increased by double your Reason score. If the ability force moves a target, the forced movement distance gains a bonus equal to your Reason score."
+              />
+              <Detail
                 detailName="Resonant"
-                detailValue="The potency of your abilities is increased by 1."
+                detailValue="Melee weapon abilities have their potency increased by 1."
               />
               <Detail
-                detailName="Extended"
-                detailValue="Weapon abilities have their distance increased by 2, and their area increased by 1. If the area is a line, you increase the size of one dimension, not both."
-              />
-              <Detail
-                detailName="Keen"
-                detailValue="Weapon abilities with rolled damage have their damage increased by your Reason score. Strikes have their damage increase by double your Reason score instead."
-              />
-              <Detail
-                detailName="Fortified"
-                detailValue="Your stability is increased by +1 until the end of your next turn, and you gain temporary stamina equal to double your Reason."
+                detailName="Reaching"
+                detailValue="Melee weapon abilities have their distance increased by double your Reason."
               />
             </BulletList>
             <Text>

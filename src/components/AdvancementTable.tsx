@@ -2,7 +2,7 @@ import { Text } from "./Text";
 
 interface AdvancementTableProps {
   columns: string[];
-  rows: Array<{ level: string; [key: string]: string }>;
+  rows: Array<{ [key: string]: string }>;
   className?: string;
   showLevel?: boolean;
 }

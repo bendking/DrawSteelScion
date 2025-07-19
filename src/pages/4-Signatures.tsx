@@ -57,14 +57,15 @@ const Signatures = () => (
         targets="One creature or object"
         addedStats={["Agility"]}
         tierResults={{
-          low: "3 + A damage",
-          middle: "6 + A damage",
-          high: "9 + A damage",
+          low: "2 + A damage",
+          middle: "5 + A damage",
+          high: "8 + A damage",
         }}
-        effect="Before the damage is resolved, choose a target within range 5.
-              Either vertical pull 4 to yourself towards the target, or vertical
-              pull 4 the target towards you. The strike portion of this ability
-              does not have to target the target of this effect"
+        effectBeforeResult
+        effect="Before choosing the target of this ability and resolving the power roll,
+              choose a creature or object within range 5. Either vertical pull
+              4 to yourself towards the target, or vertical pull 4 the target
+              towards you."
       />
       <Ability
         title="Crescent Arc"

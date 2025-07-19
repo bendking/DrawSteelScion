@@ -5,6 +5,15 @@ const ChangeLog = () => (
     <Column>
       <Title>Changelog</Title>
 
+      <Heading3>V0.2.6</Heading3>
+      <BulletList>
+        <Text>Added sidebar navigation</Text>
+        <Text>Changed Soulshape effects</Text>
+        <Text>
+          Changed Aether Lash effect wording and nerfed damage slightly
+        </Text>
+      </BulletList>
+
       <Heading3>V0.2.5</Heading3>
       <BulletList>
         <Text>Afterimage can no longer be targeted or destroyed</Text>

@@ -11,11 +11,14 @@ import Level2 from "./pages/7-Level2";
 import Level3 from "./pages/8-Level3";
 import Kits from "./pages/Kits";
 import ChangeLog from "./pages/ChangeLog";
+import { useIsMobile } from "./hooks/useIsMobile";
 
 function App() {
+  const isMobile = useIsMobile();
+
   return (
     <div className="flex flex-row">
-      <Sidebar />
+      {!isMobile && <Sidebar />}
       <ManualLayout>
         <ClassSubclass />
         <BalanceEnweave />
