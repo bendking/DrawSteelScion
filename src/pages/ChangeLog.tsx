@@ -13,6 +13,8 @@ const ChangeLog = () => (
           Changed Aether Lash effect wording and nerfed damage slightly
         </Text>
         <Text>Changed Flowing Strike effect wording</Text>
+        <Text>Nerfed Crescent Arc damage</Text>
+        <Text>Changed Flowing Strike keywords</Text>
       </BulletList>
 
       <Heading3>V0.2.5</Heading3>

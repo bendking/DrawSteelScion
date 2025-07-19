@@ -76,9 +76,9 @@ const Signatures = () => (
         targets="Each enemy in the area"
         addedStats={["Agility"]}
         tierResults={{
-          low: "6 damage",
-          middle: "8 damage",
-          high: "11 damage",
+          low: "4 damage",
+          middle: "6 damage",
+          high: "8 damage",
         }}
         effect="The wall area is only used for targeting, and does not create an actual wall. Each increase to the wall's length is doubled."
       />

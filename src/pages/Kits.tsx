@@ -35,7 +35,7 @@ const Kits = () => (
         className="mt-2"
         title="Flowing Strike"
         subtitle="You move like water, cutting through foes with a single, fluid motion."
-        keywords="Melee, Strike, Weapon, Magic"
+        keywords="Melee, Weapon"
         actionType="Main action"
         range="Melee 1"
         targets="Special"
