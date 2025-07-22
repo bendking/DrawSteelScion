@@ -34,7 +34,7 @@ const Signatures = () => (
       <Ability
         title="Still Edge"
         subtitle="You cut into your foe, leaving potential energy in their form - threatening to snap into explosive motion."
-        keywords="Area, Magic, Melee, Weapon"
+        keywords="Magic, Melee, Weapon, Strike"
         actionType="Main action"
         range="Melee 1"
         targets="One creature"
