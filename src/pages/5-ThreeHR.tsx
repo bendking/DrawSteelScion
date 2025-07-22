@@ -39,9 +39,9 @@ const ThreeHR = () => (
         targets="Each enemy in the area"
         addedStats={["Agility"]}
         tierResults={{
-          low: "7 damage",
+          low: "6 damage",
           middle: "9 damage",
-          high: "12 damage",
+          high: "13 damage",
         }}
       />
     </Column>
@@ -56,7 +56,7 @@ const ThreeHR = () => (
         targets="1 creature"
         addedStats={["Agility"]}
         tierResults={{
-          low: "10 + R damage",
+          low: "8 + R damage",
           middle: "12 + R damage",
           high: "16 + R damage",
         }}
@@ -74,7 +74,7 @@ const ThreeHR = () => (
         tierResults={{
           low: "4 + A damage",
           middle: "7 + A damage",
-          high: "10 + A damage",
+          high: "11 + A damage",
         }}
         effect="You gain temporary Stamina equal to half the damage dealt by this ability."
       />

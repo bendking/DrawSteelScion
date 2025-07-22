@@ -80,7 +80,7 @@ const Level3 = () => (
         tierResults={{
           low: "10 + A damage",
           middle: "14 + A damage",
-          high: "19 + A damage",
+          high: "20 + A damage",
         }}
         effect="If the target of this ability is not a minion and is reduced to 0 stamina, refund the balance cost."
       />

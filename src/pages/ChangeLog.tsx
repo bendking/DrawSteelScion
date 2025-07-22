@@ -5,6 +5,22 @@ const ChangeLog = () => (
     <Column>
       <Title>Changelog</Title>
 
+      <Heading3>V0.2.8</Heading3>
+      <BulletList>
+        <Text>Replaced Ninefold Stroke with Still Edge</Text>
+        <Text>Changed Veil Piercer damage</Text>
+        <Text>Modify Aether Lash effect</Text>
+        <Text>Change Veil Piercer damage</Text>
+        <Text>Change Crescent Arc damage</Text>
+        <Text>Change Full Moon Arc damage</Text>
+        <Text>Change Sanguine Thread damage</Text>
+        <Text>Change Glacial Bloom damage</Text>
+        <Text>Change Spirit Rend damage</Text>
+        <Text>Change Soul Wave damage</Text>
+        <Text>Change Judgment Edge damage</Text>
+        <Text>Change Flowing Strike damage</Text>
+      </BulletList>
+
       <Heading3>V0.2.7</Heading3>
       <BulletList>
         <Text>Changed Enweave effect to apply to melee weapon abilities</Text>

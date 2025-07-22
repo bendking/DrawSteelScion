@@ -16,21 +16,6 @@ const Signatures = () => (
       </Text>
 
       <Ability
-        title="Ninefold Stroke"
-        subtitle="A single slash unfolds into multiple, mirrored in perfect harmony."
-        keywords="Area, Magic, Melee, Weapon"
-        actionType="Main action"
-        range="3 cube within 1"
-        targets="Each enemy in the area"
-        addedStats={["Agility"]}
-        tierResults={{
-          low: "2 damage",
-          middle: "4 damage",
-          high: "6 damage",
-        }}
-      />
-
-      <Ability
         title="Essence Lance"
         subtitle="You hurl a lance of force that pierces not flesh, but the core of their being."
         keywords="Ranged, Strike, Magic"
@@ -44,6 +29,22 @@ const Signatures = () => (
           high: "11 + R psychic damage",
         }}
         effect="The target's characteristic scores are treated as lower by 1 for the sake of resisting potencies (save ends)."
+      />
+
+      <Ability
+        title="Still Edge"
+        subtitle="You cut into your foe, leaving potential energy in their form - threatening to snap into explosive motion."
+        keywords="Area, Magic, Melee, Weapon"
+        actionType="Main action"
+        range="Melee 1"
+        targets="One creature"
+        addedStats={["Agility"]}
+        tierResults={{
+          low: "3 + A damage",
+          middle: "6 + A damage",
+          high: "9 + A damage",
+        }}
+        effect="If the target willingly moves before the end of their next turn, they take damage equal to twice your Reason score."
       />
     </Column>
 
@@ -63,9 +64,11 @@ const Signatures = () => (
         }}
         effectBeforeResult
         effect="Before choosing the target of this ability and resolving the power roll,
-              choose a creature or object within range 5. Either vertical pull
-              4 to yourself towards the target, or vertical pull 4 the target
-              towards you."
+              choose a creature or object within range 5. Either vertical pull 4
+              the target, or vertical pull 4 yourself as if you were the target.
+              When a creature is pulled into the air this way, they do not fall
+              down until the end of your turn, and lose all stability while in
+              the air."
       />
       <Ability
         title="Crescent Arc"
@@ -78,9 +81,9 @@ const Signatures = () => (
         tierResults={{
           low: "4 damage",
           middle: "6 damage",
-          high: "8 damage",
+          high: "10 damage",
         }}
-        effect="The wall area is only used for targeting, and does not create an actual wall. Each increase to the wall's length is doubled."
+        effect="The wall area is only used for targeting. Each increase to the wall's length is doubled."
       />
     </Column>
   </Page>

@@ -41,9 +41,9 @@ const Kits = () => (
         targets="Special"
         addedStats={["Agility"]}
         tierResults={{
-          low: "6 damage",
+          low: "5 damage",
           middle: "8 damage",
-          high: "10 damage",
+          high: "11 damage",
         }}
         effect="You shift up to 3 squares and make one power roll that targets all enemies that you moved through during the move. Enemies are not treated as difficult terrain for the purpose of this movement. You may not end this movement inside an enemy's square"
       />

@@ -148,7 +148,7 @@ const Level2 = () => (
         targets="Each enemy in the area"
         addedStats={["Agility"]}
         tierResults={{
-          low: "2 damage; M < weak, dazed (save ends)",
+          low: "3 damage; M < weak, dazed (save ends)",
           middle: "5 damage; M < weak, dazed (save ends)",
           high: "8 damage; M < weak, dazed (save ends)",
         }}
