@@ -8,8 +8,8 @@ const ChangeLog = () => (
       <Heading3>V0.2.8</Heading3>
       <BulletList>
         <Text>Replaced Ninefold Stroke with Still Edge</Text>
-        <Text>Changed Veil Piercer damage</Text>
         <Text>Modify Aether Lash effect</Text>
+        <Text>Changed Veil Piercer damage</Text>
         <Text>Change Veil Piercer damage</Text>
         <Text>Change Crescent Arc damage</Text>
         <Text>Change Full Moon Arc damage</Text>
