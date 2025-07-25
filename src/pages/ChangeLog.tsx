@@ -5,6 +5,16 @@ const ChangeLog = () => (
     <Column>
       <Title>Changelog</Title>
 
+      <Heading3>V0.2.9</Heading3>
+      <BulletList>
+        <Text>Increase Soul Wave area to 5x3</Text>
+        <Text>Make Writ of Flame a maneuver, lower damage</Text>
+        <Text>Add Spear Dancer kit</Text>
+        <Text>Rename Swordmaster to Sword Master</Text>
+        <Text>Add M damage to Sword Master kit</Text>
+        <Text>Change Horizon Step effect wording</Text>
+      </BulletList>
+
       <Heading3>V0.2.8</Heading3>
       <BulletList>
         <Text>Replaced Ninefold Stroke with Still Edge</Text>
@@ -109,12 +119,14 @@ const ChangeLog = () => (
           Liminal Runes text changed, applies bane instead of weakened
         </Text>
       </BulletList>
+    </Column>
 
+    <Column className="flex flex-col">
+      {" "}
       <Heading3>V0.1.7</Heading3>
       <BulletList>
         <Text>Writ of Flame turned into a Main Action</Text>
       </BulletList>
-
       <Heading3>V0.1.6</Heading3>
       <BulletList>
         <Text>Acid strike becomes save ends</Text>
@@ -125,9 +137,6 @@ const ChangeLog = () => (
         </Text>
         <Text>Added blurb to beginning of class</Text>
       </BulletList>
-    </Column>
-
-    <Column className="flex flex-col">
       <Heading3>V0.1.5</Heading3>
       <BulletList>
         <Text>Renamed 'Aegis Sigil' to 'Writ of Sanctuary'</Text>
@@ -143,7 +152,6 @@ const ChangeLog = () => (
           Changed Veil Piercer effect wording and fixed T1 damage missing
         </Text>
       </BulletList>
-
       <Heading3>V0.1.4</Heading3>
       <BulletList>
         <Text>Changed balance discount to be once per combat round</Text>
@@ -151,7 +159,6 @@ const ChangeLog = () => (
         <Text>Phase Assault changes</Text>
         <Text>Godspeed changes (again)</Text>
       </BulletList>
-
       <Heading3>V0.1.3</Heading3>
       <BulletList>
         <Text>Buffed Godspeed</Text>
@@ -159,23 +166,19 @@ const ChangeLog = () => (
         <Text>Buffed Cross Slash</Text>
         <Text>Buffed 'Disruption Runes' and renamed to 'Liminal Runes'</Text>
       </BulletList>
-
       <Heading3>V0.1.2</Heading3>
       <BulletList>
         <Text>Replace Twinned Enweave with Mystic Shield</Text>
         <Text>Twinned Enweave will be a level 4 ability instead</Text>
       </BulletList>
-
       <Heading3>V0.1.1</Heading3>
       <BulletList>
         <Text>Misc. changes (typos, HR cost tweaks)</Text>
       </BulletList>
-
       <Heading3>V0.1.0</Heading3>
       <BulletList>
         <Text>Initial release</Text>
       </BulletList>
-
       <Text className="text-sm italic self-end justify-self-end">
         The Scion is an independent product published under the DRAW STEEL
         Creator License and is not affiliated with MCDM Productions, LLC. DRAW

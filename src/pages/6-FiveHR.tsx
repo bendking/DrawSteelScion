@@ -10,7 +10,7 @@ const FiveHR = () => (
       </Text>
 
       <Ability
-        title="Lightning Strike"
+        title="Lightning Strike (5 Balance)"
         subtitle="You become lightning, flashing from one place to another, leaving ruin in your wake."
         keywords="Melee, Weapon, Magic, Area"
         actionType="Main action"
@@ -26,7 +26,7 @@ const FiveHR = () => (
       />
 
       <Ability
-        title="Glacial Bloom"
+        title="Glacial Bloom (5 Balance)"
         subtitle="Like a flower in bloom, ice explodes onto your foes."
         keywords="Area, Magic, Ranged"
         actionType="Main action"
@@ -43,7 +43,7 @@ const FiveHR = () => (
 
     <Column>
       <Ability
-        title="Crashing Wave"
+        title="Crashing Wave (5 Balance)"
         subtitle="Leaping skyward, you crash down with the weight of the ocean."
         keywords="Area, Melee, Magic, Weapon"
         actionType="Main action"
@@ -59,7 +59,7 @@ const FiveHR = () => (
       />
 
       <Ability
-        title="Spirit Rend"
+        title="Spirit Rend (5 Balance)"
         subtitle="You carve through your foe's spirit, leaving their mind reeling."
         keywords="Melee, Strike, Weapon, Magic"
         actionType="Main action"

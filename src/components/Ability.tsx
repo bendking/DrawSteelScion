@@ -51,6 +51,12 @@ export function Ability({
     tierResults?.high
   );
 
+  const sortedKeywords = keywords
+    .split(",")
+    .map((keyword) => keyword.trim())
+    .sort()
+    .join(", ");
+
   return (
     <div className={`${className}`}>
       {/* Header section with vertical line */}
@@ -69,7 +75,7 @@ export function Ability({
           {/* Keywords and Action Type */}
           <div className="flex justify-between items-center mt-1">
             <Text>
-              <strong>{keywords}</strong>
+              <strong>{sortedKeywords}</strong>
             </Text>
             <Text>
               <strong>{actionType}</strong>
@@ -97,12 +103,12 @@ export function Ability({
       {/* Power Roll and Tier Results (only if all are provided) */}
       {hasTierResults && (
         <>
-          <PowerRoll addedStats={addedStats!} />
-
           {/* Trigger and Effect before results if specified */}
           {effectBeforeResult && (
             <AbilitySection trigger={trigger} effect={effect} />
           )}
+
+          <PowerRoll addedStats={addedStats!} />
 
           <TierResultsTable results={tierResults!} />
 

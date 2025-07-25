@@ -65,7 +65,7 @@ const Level2 = () => (
       <Text>Choose one of the following abilities.</Text>
 
       <Ability
-        title="Phase Assault"
+        title="Phase Assault (5 Balance)"
         subtitle="You blink between foes, each reappearance marked by a precise, cutting strike."
         keywords="Melee, Strike, Weapon, Magic"
         actionType="Main action"
@@ -81,7 +81,7 @@ const Level2 = () => (
       />
 
       <Ability
-        title="Horizon Step"
+        title="Horizon Step (5 Balance)"
         subtitle="None can escape your grasp."
         keywords="Melee, Strike, Weapon, Magic"
         actionType="Main action"
@@ -93,7 +93,7 @@ const Level2 = () => (
           middle: "18 + A damage",
           high: "23 + A damage",
         }}
-        effect="Teleport to any unoccupied space within range 15 before resolving the power roll."
+        effect="You may teleport to up to 15 squares before this strike."
       />
     </Column>
 
@@ -102,30 +102,30 @@ const Level2 = () => (
       <Text>Choose one of the following abilities.</Text>
 
       <Ability
-        title="Writ of Flame"
+        title="Writ of Flame (5 Balance)"
         subtitle="You brand a flaming writ onto the ground, scorching all who would come near."
-        keywords="Melee, Strike, Weapon, Magic"
-        actionType="Main action"
+        keywords="Area, Magic"
+        actionType="Maneuver"
         range="2 burst"
         targets="Each enemy in the area"
-        effect="The area remains until the end of the encounter. Each enemy who enters the area for the first time in a combat round or starts their turn there takes damage equal to three times your Reason score."
+        effect="The area remains until the end of the encounter. Each enemy who enters the area for the first time in a combat round or starts their turn there takes damage equal to twice your Reason score."
       />
 
       <Ability
-        title="Writ of Sanctuary"
+        title="Writ of Sanctuary (5 Balance)"
         subtitle="You brand a defensive writ onto the ground, protecting and emboldening companions."
-        keywords="Melee, Strike, Weapon, Magic"
+        keywords="Area, Magic"
         actionType="Maneuver"
         range="2 burst"
         targets="Each ally in the area"
-        effect="The area remains until the end of the encounter. The first time you or an ally enters the area on their turn or begins their turn within it, they gain temporary Stamina equal to twice your Reason score. While within the area, you and your allies gain damage resistance equal to your Reason."
+        effect="The area remains until the end of the encounter. The first time you or an ally enters the area on their turn or begins their turn within it, they gain temporary Stamina equal to three times your Reason score. While within the area, you and your allies gain damage resistance equal to your Reason."
       />
 
       <Heading3>2nd-Level Soulforged Ability</Heading3>
       <Text>Choose one of the following abilities.</Text>
 
       <Ability
-        title="Soul Spiral"
+        title="Soul Spiral (5 Balance)"
         subtitle="Your Soulblade unfurls in a violent spiral, crashing through foes."
         keywords="Melee, Area, Weapon, Magic"
         actionType="Main action"
@@ -140,11 +140,11 @@ const Level2 = () => (
       />
 
       <Ability
-        title="Soul Wave"
+        title="Soul Wave (5 Balance)"
         subtitle="Your Soulblade blazes with the power of your will, unleashing it in a wave of force."
         keywords="Melee, Area, Weapon, Magic"
         actionType="Main action"
-        range="5 × 2 line within 1"
+        range="5 × 3 line within 1"
         targets="Each enemy in the area"
         addedStats={["Agility"]}
         tierResults={{

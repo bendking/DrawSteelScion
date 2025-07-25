@@ -16,7 +16,7 @@ const ThreeHR = () => (
       </Text>
 
       <Ability
-        title="Sever the Moment"
+        title="Sever the Moment (3 Balance)"
         subtitle="You read the flaw in their stance and cut deep."
         keywords="Melee, Strike, Weapon, Magic"
         actionType="Main action"
@@ -31,7 +31,7 @@ const ThreeHR = () => (
         effect="If the target has any condition, this ability deals double damage."
       />
       <Ability
-        title="Full Moon Arc"
+        title="Full Moon Arc (3 Balance)"
         subtitle="Your blade traces a perfect circle in red."
         keywords="Melee, Weapon"
         actionType="Main action"
@@ -48,7 +48,7 @@ const ThreeHR = () => (
 
     <Column>
       <Ability
-        title="Veil Piercer"
+        title="Veil Piercer (3 Balance)"
         subtitle="You lance through a veil of mist, fading from sight."
         keywords="Ranged, Strike, Magic"
         actionType="Main action"
@@ -64,7 +64,7 @@ const ThreeHR = () => (
       />
 
       <Ability
-        title="Sanguine Thread"
+        title="Sanguine Thread (3 Balance)"
         subtitle="Your blade draws a line through flesh, and a thread of life follows - woven back into your form."
         keywords="Melee, Strike, Weapon, Magic"
         actionType="Main action"
