@@ -18,10 +18,6 @@ const ChangeLog = () => (
           simplify it
         </Text>
         <Text>Soulshape: changed the spend effect</Text>
-        <Text>
-          Soulshape: changed the Reaching form to increase distance by double
-          your Reason
-        </Text>
         <Text>Crescent Arc: reduced damage</Text>
         <Text>Blade's Will: changed effect</Text>
       </BulletList>
