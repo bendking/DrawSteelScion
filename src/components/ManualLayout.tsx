@@ -12,7 +12,7 @@ export function ManualLayout({ children, className = "" }: ManualLayoutProps) {
 
   return (
     <main
-      className={`flex flex-col w-full p-4 m-2 border-1 border-gray-400 ${className}`}
+      className={`max-w-[750px] flex flex-col w-full p-4 m-2 border-1 border-gray-400 ${className}`}
       style={{ backgroundColor: "#fffef8" }}
     >
       {pages.map((child, idx) => (

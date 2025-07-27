@@ -17,7 +17,7 @@ function App() {
   const isMobile = useIsMobile();
 
   return (
-    <div className="flex flex-row">
+    <div className="flex flex-col items-center">
       {!isMobile && <Sidebar />}
       <ManualLayout>
         <ClassSubclass />
