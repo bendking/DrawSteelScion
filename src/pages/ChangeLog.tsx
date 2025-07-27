@@ -5,6 +5,27 @@ const ChangeLog = () => (
     <Column>
       <Title>Changelog</Title>
 
+      <Heading3>V0.3.0</Heading3>
+      <BulletList>
+        <Text>Flowing Strike: Renamed to Gliding Heron</Text>
+        <Text>
+          Lightning Strike: changed effect to teleport instead of shift
+        </Text>
+        <Text>Sever the Moment: changed damage & effect</Text>
+        <Text>Soulshape: removed Defensive form</Text>
+        <Text>
+          Soulshape: removed the 'extra damage if strike' text from Powerful to
+          simplify it
+        </Text>
+        <Text>Soulshape: changed the spend effect</Text>
+        <Text>
+          Soulshape: changed the Reaching form to increase distance by double
+          your Reason
+        </Text>
+        <Text>Crescent Arc: reduced damage</Text>
+        <Text>Blade's Will: changed effect</Text>
+      </BulletList>
+
       <Heading3>V0.2.9</Heading3>
       <BulletList>
         <Text>Increase Soul Wave area to 5x3</Text>

@@ -33,7 +33,7 @@ const Kits = () => (
       <Heading4>Signature Ability</Heading4>
       <Ability
         className="mt-2"
-        title="Flowing Strike"
+        title="Gliding Heron"
         subtitle="You move like water, cutting through foes with a single, fluid motion."
         keywords="Melee, Weapon"
         actionType="Main action"

@@ -20,9 +20,9 @@ const Level2 = () => (
       <AdvancementTable
         columns={["Subclass", "Features"]}
         rows={[
-          { level: "", Subclass: "Blinkblade", Features: "Afterimage" },
-          { level: "", Subclass: "Runewright", Features: "Liminal Runes" },
-          { level: "", Subclass: "Soulforged", Features: "Soul Instinct" },
+          { Subclass: "Blinkblade", Features: "Afterimage" },
+          { Subclass: "Runewright", Features: "Liminal Runes" },
+          { Subclass: "Soulforged", Features: "Soul Instinct" },
         ]}
       />
 
@@ -149,8 +149,8 @@ const Level2 = () => (
         addedStats={["Agility"]}
         tierResults={{
           low: "3 damage; M < weak, dazed (save ends)",
-          middle: "5 damage; M < weak, dazed (save ends)",
-          high: "8 damage; M < weak, dazed (save ends)",
+          middle: "5 damage; M < average, dazed (save ends)",
+          high: "8 damage; M < strong, dazed (save ends)",
         }}
       />
     </Column>

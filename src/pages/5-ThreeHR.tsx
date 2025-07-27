@@ -24,11 +24,11 @@ const ThreeHR = () => (
         targets="One creature"
         addedStats={["Agility"]}
         tierResults={{
-          low: "3 + A damage",
-          middle: "5 + A damage",
-          high: "8 + A damage",
+          low: "4 + A damage",
+          middle: "6 + A damage",
+          high: "10 + A damage",
         }}
-        effect="If the target has any condition, this ability deals double damage."
+        effect="If the target has any condition, the damage of this ability is doubled, not including any damage increases."
       />
       <Ability
         title="Full Moon Arc (3 Balance)"

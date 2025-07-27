@@ -121,16 +121,12 @@ const Maneuvers = () => (
             </Text>
             <BulletList>
               <Detail
-                detailName="Defensive"
-                detailValue="You gain temporary stamina equal to double your Reason, and your stability is increased by your Reason until the end of your next turn."
-              />
-              <Detail
                 detailName="Expansive"
-                detailValue="Melee weapon abilities have their area increased by 1. If the area is a line, you increase the size of one dimension, not both."
+                detailValue="Melee weapon abilities have their area increased by 1. If the area is a line, increase the size of the larger dimension by 2 instead."
               />
               <Detail
                 detailName="Powerful"
-                detailValue="Melee weapon abilities with rolled damage have their damage increased by your Reason score. Melee weapon strikes have their damage increased by double your Reason score. If the ability force moves a target, the forced movement distance gains a bonus equal to your Reason score."
+                detailValue="Melee weapon abilities with rolled damage have their damage increased by your Reason score. If the ability force moves a target, the forced movement distance gains a bonus equal to your Reason score."
               />
               <Detail
                 detailName="Resonant"
@@ -149,7 +145,7 @@ const Maneuvers = () => (
         spend={
           <Detail
             detailName="Spend 2 Balance"
-            detailValue="You may choose two effects to benefit from at once."
+            detailValue="The benefit of the chosen form is doubled in value."
           />
         }
       />

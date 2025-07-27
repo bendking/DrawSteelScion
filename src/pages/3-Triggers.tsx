@@ -92,11 +92,12 @@ const Triggers = () => (
               <strong>Trigger:</strong> You take damage.
             </Text>
             <Text>
-              <strong>Effect:</strong> You take half the damage and ignore any
-              effects of the ability that targeted you.
+              <strong>Effect:</strong> You take half the damage. If the damage
+              has any potency effect associated with it, the potency is
+              decreased by 2.
             </Text>
             <Detail
-              detailName="Spend 3 Balance"
+              detailName="Spend 2 Balance"
               detailValue="Make a melee free strike against the creature that damaged you."
             />
           </TextBlock>

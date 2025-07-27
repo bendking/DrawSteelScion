@@ -22,7 +22,7 @@ const FiveHR = () => (
           middle: "10 damage",
           high: "14 damage",
         }}
-        effect="You shift to a square on the opposite side of the area before making the power roll."
+        effect="You teleport to a square on the opposite side of the area before making the power roll."
       />
 
       <Ability

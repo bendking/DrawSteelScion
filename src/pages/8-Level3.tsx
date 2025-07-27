@@ -92,7 +92,7 @@ const Level3 = () => (
         actionType="Maneuver"
         range="Self"
         targets="Self"
-        effect="Place a d6 die set to 6 to track this effect. At the end of each of your turns, you may reduce the die by any amount up to its current value. Then, distribute that many spectral blades among enemies within range 5 as you choose. You cannot assign more than one blade per enemy. Each blade deals 2 + your Reason in damage."
+        effect="Place a d6 die set to 6 to track this effect. Once a turn you may reduce the die by any amount up to its current value. Then, distribute that many spectral blades among enemies within range 5 as you choose. You cannot assign more than one blade per enemy. Each blade deals 2 + your Reason in damage."
       />
     </Column>
   </Page>
